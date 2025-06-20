@@ -1,0 +1,4 @@
+{
+    "command": "PORT=<port> BROWSER=none npm start",
+    "working_directory": "/home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard"
+}
