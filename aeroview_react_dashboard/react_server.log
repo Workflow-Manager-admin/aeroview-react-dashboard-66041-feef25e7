@@ -12,8 +12,8 @@ asset index.html 1.98 KiB [emitted]
 runtime modules 27.5 KiB 14 modules
 cacheable modules 1.27 MiB
   modules by path ./node_modules/ 1.24 MiB 31 modules
-  modules by path ./src/ 14.9 KiB
-    modules by path ./src/components/*.jsx 4.74 KiB 8 modules
+  modules by path ./src/ 16.1 KiB
+    modules by path ./src/components/*.jsx 5.99 KiB 8 modules
     modules by path ./src/*.css 9.13 KiB 4 modules
     modules by path ./src/*.js 1010 bytes
       ./src/index.js 530 bytes [built] [code generated]
@@ -22,16 +22,6 @@ cacheable modules 1.27 MiB
     modules by path ./.ve/*.js 10.6 KiB 2 modules
     modules by path ./.ve/*.css 2.93 KiB 2 modules
     ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 1236 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.41 MiB
-  asset bundle.js 1.41 MiB [emitted] (name: main)
-  asset main.b282ac21ec382ed6eab7.hot-update.js 4.31 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.b282ac21ec382ed6eab7.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.41 MiB = bundle.js 1.41 MiB main.b282ac21ec382ed6eab7.hot-update.js 4.31 KiB
-cached modules 1.27 MiB [cached] 49 modules
-runtime modules 27.5 KiB 14 modules
-./src/components/MapView.jsx 1.79 KiB [built] [code generated]
 
 ERROR in ./src/components/MapView.jsx 8:0-56
 Module not found: Error: Can't resolve 'react-leaflet' in '/home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/src/components'
@@ -86,4 +76,77 @@ resolve 'leaflet/dist/leaflet.css' in '/home/kavia/workspace/code-generation/aer
  @ ./src/App.js 3:0-55 14:32-45
  @ ./src/index.js 5:0-24 11:32-35
 
-webpack 5.99.9 compiled with 2 errors in 87 ms
+webpack 5.99.9 compiled with 2 errors in 1242 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by status 1.41 MiB [cached] 1 asset
+asset index.html 1.98 KiB [emitted]
+cached modules 1.25 MiB (javascript) 27.5 KiB (runtime) [cached] 51 modules
+javascript modules 19.2 KiB
+  modules by path ./src/ 6.98 KiB
+    modules by path ./src/components/*.jsx 5.99 KiB
+      ./src/components/MainContainer.jsx 1 KiB [built]
+      ./src/components/TopBar.jsx 1.25 KiB [built]
+      ./src/components/Sidebar.jsx 668 bytes [built]
+      + 5 modules
+    modules by path ./src/*.js 1010 bytes
+      ./src/index.js 530 bytes [built]
+      ./src/App.js 483 bytes [built]
+  modules by path ./.ve/ 12.2 KiB
+    ./.ve/EditorRootWrapper.js 2.68 KiB [built]
+    ./.ve/EditorOverlay.jsx 1.58 KiB [built]
+    ./.ve/SidePanel.js 7.93 KiB [built]
+
+ERROR in ./src/components/MapView.jsx 8:0-56
+Module not found: Error: Can't resolve 'react-leaflet' in '/home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/src/components'
+resolve 'react-leaflet' in '/home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/src/components'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/package.json (relative path: ./src/components)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/src/components/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/package.json (relative path: ./node_modules/react-leaflet)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/node_modules/react-leaflet doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/node_modules/react-leaflet.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/node_modules/react-leaflet.jsx doesn't exist
+        /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/node_modules/react-leaflet doesn't exist
+      /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/components/MainContainer.jsx 4:0-32 23:28-35
+ @ ./src/App.js 3:0-55 14:32-45
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MapView.jsx 9:0-34
+Module not found: Error: Can't resolve 'leaflet/dist/leaflet.css' in '/home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/src/components'
+resolve 'leaflet/dist/leaflet.css' in '/home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/src/components'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/package.json (relative path: ./src/components)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/src/components/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/node_modules
+        /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/aeroview_react_dashboard/node_modules/leaflet doesn't exist
+      /home/kavia/workspace/code-generation/aeroview-react-dashboard-66041-feef25e7/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/components/MainContainer.jsx 4:0-32 23:28-35
+ @ ./src/App.js 3:0-55 14:32-45
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 2 errors in 263 ms
