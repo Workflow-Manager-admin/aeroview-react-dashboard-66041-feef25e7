@@ -1,4 +1,6 @@
 import React from "react";
+import WeatherPanel from "./WeatherPanel";
+import FavoritesList from "./FavoritesList";
 
 /**
  * PUBLIC_INTERFACE
@@ -6,8 +8,9 @@ import React from "react";
  */
 const Sidebar = () => {
   return (
-    <aside>
-      {/* Sidebar */}
+    <aside className="sidebar">
+      <WeatherPanel />
+      <FavoritesList />
     </aside>
   );
 };

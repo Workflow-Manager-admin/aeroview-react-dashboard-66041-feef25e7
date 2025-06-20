@@ -6,9 +6,10 @@ import React from "react";
  */
 const MapView = () => {
   return (
-    <section>
+    <main className="mapview">
       {/* MapView */}
-    </section>
+      <div style={{ color: "var(--text-secondary)" }}>Map coming soon</div>
+    </main>
   );
 };
 

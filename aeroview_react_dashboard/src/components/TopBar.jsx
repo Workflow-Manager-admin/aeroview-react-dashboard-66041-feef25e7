@@ -1,4 +1,6 @@
 import React from "react";
+import ThemeToggle from "./ThemeToggle";
+import AirportSearch from "./AirportSearch";
 
 /**
  * PUBLIC_INTERFACE
@@ -6,8 +8,16 @@ import React from "react";
  */
 const TopBar = () => {
   return (
-    <header>
-      {/* TopBar */}
+    <header className="topbar">
+      <div className="topbar__title">
+        <span className="logo-symbol">*</span> AeroView Dashboard
+      </div>
+      <div className="topbar__search">
+        <AirportSearch />
+      </div>
+      <div className="topbar__theme">
+        <ThemeToggle />
+      </div>
     </header>
   );
 };
